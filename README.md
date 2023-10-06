@@ -1,7 +1,7 @@
 
 
 # INSTALL SCRIPT 
-<pre><code>apt install -y wget screen && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/ZvnStores/Zvpn/main/premi.sh && chmod +x premi.sh && screen -S install ./premi.sh
+<pre><code>wget --no-check-certificate https://raw.githubusercontent.com/ZvnStores/Zvpn/main/premi.sh && chmod +x premi.sh && ./premi.sh
 </code></pre>
 
 # PERINTAH UPDATE 
@@ -13,7 +13,7 @@
 
 # HARAP DI BACA
 ```
-JIKA MENDAPATKAN STATUS SERVICE OFF
+JIKA MENDAPATKAN STATUS SERVICE YG OFF
 BISA RESTERT SERVICE DI MENU NO 17
 JIKA MASIH OFF SILAKAN REBOOT VPS 
 ```
